@@ -16,7 +16,7 @@ To get started perform the following:
 
 (General hint: You can start up an online VSCode IDE in GitHub be simply pressing `.` when you are navigating the repository. Might come in handy later.)
 
-## 2. <TODO: Add>
+## 2. Implement a CI/CD Pipeline with security activities
 
 Okay, now you have the project ready, so lets get our fingers dirty.  
 Following the Definition of Done for continuous security integration from the lecture, you first **define your security use cases**. For our purposes, we start with
@@ -40,9 +40,9 @@ Now, lets go on to step three and actually integrate the tools. Steps to perform
 
 ![Result after integrating security activities](figures/2.Integrate_security_activities.png)
 
-## 3. <TODO: Add>
+## 3. Implement Security Feedback-loop
 
-### 3.1 <TODO: Add>
+### 3.1 Improve visualisation of findings
 So you have the security activities implemented and you see the respective artifacts in the logs.  
 While this is already awesome, your team is not satisfied with this solution, the feedbackloop is not implemented sufficiently. Understandably, they don't want to always check the workflow-run-logs to get an overview of the current security state in their project.  
 
@@ -57,7 +57,7 @@ Thus we somehow have to improve the feedback loop implementation for our securit
 ![All workflows finish successfully after aggregationg and visualizing](figures/3.Aggregation_and_visualization_1.png)
 ![Findings are aggregated and visualized now as list in GitHub's UI](figures/3.Aggregation_and_visualization_2.png)
 
-### 3.2 <TODO: Add>
+### 3.2 Solve findings
 Under normal circumstances it is not your responsibility to fix security issues. However your are short on staff, so you were asked to do that, also to prove that you correctly implemented step 4 of the definition of done.  
 
 0. GitLeaks: Remove the secrets from the file
@@ -66,7 +66,7 @@ Under normal circumstances it is not your responsibility to fix security issues.
 
 Commit and check `Security > Code Scanning` for findings. Where you able to solve all issues the way described here?
 
-### 4. <TODO: Add>
+### 4. Shift-left security activities
 Your team really appreciates your hard work to help them secure the project.  
 Now that they have a good overview of the current security state they want to become a bit more proactive and shift the security activities more left. Which means directly fixing security findings before they are even introduced to the default branch of the project.  
 
